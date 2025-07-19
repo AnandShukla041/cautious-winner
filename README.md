@@ -1,20 +1,41 @@
-# 📊 Scaling Meme - Sales Data Analysis
+# 🛒 Walmart Sales Data Analysis
 
-This project contains a Python script that analyzes Walmart sales data by city and creates visualizations.
+A simple Python data analysis project that explores Walmart’s retail sales data, with a focus on sales distribution across cities using visualizations like pie charts and bar graphs.
 
-## Contents
+---
 
-- `city_sales_analysis.py` - Python script for data processing and visualization.
-- `Reports/city_sales_charts.png` - Combined pie and bar chart saved from script.
+## 📊 Key Features
 
-## How to Run
+- ✅ Clean and preprocess raw sales data (unit price, quantity)
+- ✅ Calculate total sales per city
+- ✅ Visualize:
+  - 📌 **Sales by City (Pie Chart)**
+  - 📌 **Top 10 Cities by Sales (Horizontal Bar Chart)**
+- ✅ Save charts automatically to `/Reports/`
+- ✅ Sort, format, and enhance visuals for presentation
 
-Make sure you have:
-- Python 3
-- `pandas`
-- `matplotlib`
+---
 
-Then run:
+## 🗂️ Folder Structure
+
+
+---
+
+## 🖼️ Sample Output
+
+> `Reports/city_sales_charts.png`  
+_Pie chart + bar chart showing sales performance across top cities._
+
+---
+
+## ⚙️ Requirements
+
+- Python 3.8+
+- Libraries:
+  - `pandas`
+  - `matplotlib`
+
+Install using:
 
 ```bash
-python3 city_sales_analysis.py
+pip install pandas matplotlib
